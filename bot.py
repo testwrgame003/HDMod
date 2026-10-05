@@ -2023,7 +2023,7 @@ async def on_message(message: discord.Message):
             ):
                 await forward_invalid_message(
                     message,
-                    "No coincide con el formato esperado de God Pack."
+                    "No God Pack."
                 )
 
             logger.info("Ignorado: no coincide con filtro webhook/canal/trigger")
